@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Nicsure\Altair8800\Hardware\SerialConsole.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Nicsure\CustomControls\FrontSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Nicsure\CustomControls\HButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Nicsure\CustomControls\NumberBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Nicsure\CustomControls\VariableLED.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Project\CassetteOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Project\Monitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Project\UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
