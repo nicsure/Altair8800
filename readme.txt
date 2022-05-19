@@ -1,4 +1,5 @@
-Here is my very untidy Altair 8800 emulator project solution.
+Here is my very untidy Altair 8800 emulator project solution. This was put together with Visual Studio 2022 using .NET 6.0
+
 I am not at all happy with the awful state of the code in this project, but I really do not have the time to get it in a state that doesn't make me cringe. There are almost certainly still bugs and glitches, so don't expect too much. Nothing is code documented either.
 
 The code (such as it is) is completely public domain and open, so do with it as you will. All I ask is that you don't remove my copyright messages and links to my YouTube channel.
