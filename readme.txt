@@ -13,4 +13,4 @@ Make sure you build the solution before attempting to open the Form designer bec
 There is an odd "Object reference not set to an instance of an object" error that pops up when openeing the main UI in the designer. Not sure why that happens but it doesn't seem to cause any issues, just ignore it.
 
 A brief demo of this application is on my YouTube channel
-https://youtube.com/nicsure
+https://www.youtube.com/watch?v=GLT6EjQuxTs
