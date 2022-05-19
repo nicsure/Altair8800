@@ -697,6 +697,11 @@ namespace Altair64.Project
             if(!IsRunning)
                 Altair8800.SetState(true);
         }
+
+        private void LL_Youtube_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(LL_Youtube.Text) { UseShellExecute = true });
+        }
     }
 
 }

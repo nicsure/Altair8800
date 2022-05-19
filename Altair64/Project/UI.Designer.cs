@@ -214,6 +214,8 @@ namespace Altair64.Project
             this.BUT_Disk0 = new Nicsure.CustomControls.HButton();
             this.BUT_Load = new Nicsure.CustomControls.HButton();
             this.BUT_Commit = new System.Windows.Forms.Button();
+            this.label46 = new System.Windows.Forms.Label();
+            this.LL_Youtube = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_BinLoadAddr)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_PC)).BeginInit();
             this.CMS_DiskOptions.SuspendLayout();
@@ -3168,12 +3170,37 @@ namespace Altair64.Project
             this.BUT_Commit.UseVisualStyleBackColor = true;
             this.BUT_Commit.Click += new System.EventHandler(this.BUT_Commit_Click);
             // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.ForeColor = System.Drawing.Color.White;
+            this.label46.Location = new System.Drawing.Point(1730, 235);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(188, 30);
+            this.label46.TabIndex = 77;
+            this.label46.Text = "(C) 2022 by nicsure";
+            // 
+            // LL_Youtube
+            // 
+            this.LL_Youtube.AutoSize = true;
+            this.LL_Youtube.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.LL_Youtube.Location = new System.Drawing.Point(1918, 235);
+            this.LL_Youtube.Name = "LL_Youtube";
+            this.LL_Youtube.Size = new System.Drawing.Size(276, 30);
+            this.LL_Youtube.TabIndex = 78;
+            this.LL_Youtube.TabStop = true;
+            this.LL_Youtube.Text = "https://youtube.com/nicsure";
+            this.LL_Youtube.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.LL_Youtube.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LL_Youtube_LinkClicked);
+            // 
             // UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(2604, 1569);
+            this.Controls.Add(this.LL_Youtube);
+            this.Controls.Add(this.label46);
             this.Controls.Add(this.BUT_Commit);
             this.Controls.Add(this.BUT_Presets);
             this.Controls.Add(this.BUT_LoadHex);
@@ -3227,7 +3254,7 @@ namespace Altair64.Project
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.MinimumSize = new System.Drawing.Size(2612, 1576);
             this.Name = "UI";
-            this.Text = "Altair 8800";
+            this.Text = "Altair 8800 - (C) 2022 by nicsure";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UI_FormClosing);
             this.Shown += new System.EventHandler(this.UI_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.NUD_BinLoadAddr)).EndInit();
@@ -3485,6 +3512,8 @@ namespace Altair64.Project
         private CheckBox CB_DoStatus;
         private CheckBox CBOX_Monitor;
         private Button BUT_Commit;
+        private Label label46;
+        private LinkLabel LL_Youtube;
     }
 }
 
