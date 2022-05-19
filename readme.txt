@@ -7,5 +7,9 @@ The project should be completelty self-contained and only requires the NuGet NAu
 
 I'd recommend building for x64 platforms.
 
+Make sure you build the solution before attempting to open the Form designer because there are custom controls that need to be compiled beforehand.
+
+There is an odd "Object reference not set to an instance of an object" error that pops up when openeing the main UI in the designer. Not sure why that happens but it doesn't seem to cause any issues, just ignore it.
+
 A brief demo of this application is on my YouTube channel
 https://youtube.com/nicsure
